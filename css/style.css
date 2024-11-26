@@ -26,6 +26,12 @@ header {
     letter-spacing: 0.5cap;
 }
 
+#score-section:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: gray;
+}
+
 #main-section {
     background-color: rgb(59, 80, 59); 
     display: flex;
@@ -90,3 +96,14 @@ header {
 .answer-box:hover {
     background: gray;
 }
+
+@media (max-width: 768px) {
+    .answer-box {
+        font-size: 12px;
+    }
+
+    .card-faces {
+        margin-bottom: 8px;
+    }
+}
+
