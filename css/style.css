@@ -26,10 +26,12 @@ header {
     letter-spacing: 0.5cap;
 }
 
-#score-section:hover {
-    cursor: pointer;
-    font-weight: bold;
-    color: gray;
+button {
+    background-color: rgb(59, 80, 59);
+    padding: 10px;
+    margin-left: 30px;
+    letter-spacing: 0.5cap;
+    color: white;
 }
 
 #main-section {

@@ -10,19 +10,21 @@
 <body>
     <header>
         <div><img src="images/logo_bjm.png" id="site-logo"/></div>
-        <div id="score-section">START</div>
+        <div id="score-section">
+            <button id="start-button">START</button>
+        </div>
     </header>
 
     <section id="main-section">
         <div id="cards">
             <div class="dealer-player">
-                <div class="card-faces"></div>
+                <div class="card-faces" id="dealer-card-one"></div>
                 <h3 class="label">DEALER</h3>
             </div>
             <div class="dealer-player">
                 <div id="player-cards">
-                    <div class="card-faces"></div>
-                    <div class="card-faces"></div>
+                    <div class="card-faces" id="player-card-one"></div>
+                    <div class="card-faces" id="player-card-two"></div>
                 </div>
                 <h3 class="label">YOU</h3>
             </div>
