@@ -15,7 +15,9 @@ var resetButton = document.createElement('button');
 // Array of card combinations
 var cardComboArray = [
     {
-
+        dealer: "Jack",
+        playerOne: "King",
+        playerTwo: "Ten",
     }
 ]
 
