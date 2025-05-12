@@ -12,6 +12,7 @@ var buttonSplit = document.querySelector('#answer-four');
 var scoreCount = 0;
 var resetButton = document.createElement('button');
 
+
 // Array of card combinations
 var cardComboArray = [
     {
